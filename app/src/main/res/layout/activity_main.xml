@@ -15,10 +15,13 @@
         app:layout_boxedEdges="all">
 
         <TextView
-            android:id="@+id/text"
+            android:id="@+id/counter_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
+            android:layout_gravity="center"
+            android:textFontWeight="400"
+            android:textSize="96sp"
+            android:text="0" />
 
     </FrameLayout>
 </androidx.wear.widget.BoxInsetLayout>
